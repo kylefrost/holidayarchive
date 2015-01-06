@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Dragon is coming";
+  src: url('../assets/coming.ttf'), url('../assets/coming.ttf');
+}
+.centerOnPage {
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+* {
+  font-family: 'Dragon is coming', cursive;
+  overflow: hidden;
+}
+body {
+  background: url("../assets/city.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+.middleText {
+  position: absolute;
+  color: white;
+  font-size: 200px;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  text-align: center;
+}
+.signature {
+  visibility: hidden;
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 65%;
+}
+.signature img {
+  width: 250px;
+  height: auto;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: crosshair;
+  display: block;
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (max-device-width: 480px) {
+  .middleText {
+    font-size: 150px;
+  }
+}
+@media only screen and (max-device-width: 1024px) {
+  .middleText {
+    font-size: 75px;
+  }
+}

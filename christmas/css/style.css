@@ -1,0 +1,51 @@
+.centerOnPage {
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+* {
+  font-family: 'Mountains of Christmas', cursive;
+  overflow: hidden;
+}
+body {
+  background: url("../assets/snow.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+.middleText {
+  position: absolute;
+  color: #29c000;
+  font-size: 80px;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  text-align: center;
+}
+.signature {
+  visibility: hidden;
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 65%;
+}
+.signature img {
+  width: 250px;
+  height: auto;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
